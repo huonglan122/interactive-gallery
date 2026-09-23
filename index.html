@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Thư viện ảnh tương tác</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Phần tử hiển thị ảnh phóng to và văn bản -->
+    <div id="image">
+        Hover over an image below to display here.
+    </div>
+
+    <!-- Các ảnh nhỏ để di chuột vào -->
+    <div class="gallery">
+        <img class="preview" 
+             alt="Phong cảnh núi rừng" 
+             src="https://picsum.photos/id/1018/600/400" 
+             onmouseover="upDate(this)" 
+             onmouseleave="unDo()">
+
+        <img class="preview" 
+             alt="Biển xanh cát trắng" 
+             src="https://picsum.photos/id/1015/600/400" 
+             onmouseover="upDate(this)" 
+             onmouseleave="unDo()">
+
+        <img class="preview" 
+             alt="Thành phố về đêm" 
+             src="https://picsum.photos/id/1016/600/400" 
+             onmouseover="upDate(this)" 
+             onmouseleave="unDo()">
+    </div>
+</body>
+</html>
