@@ -20,5 +20,5 @@ function unDo() {
     imageDiv.style.backgroundImage = "url('')";
 
     // Đặt lại văn bản về câu thông báo ban đầu
-    imageDiv.innerHTML = "Hover over an image below to display here.";
+    imageDiv.innerHTML = "Di chuột qua một hình ảnh bên dưới để hiển thị tại đây.";
 }
